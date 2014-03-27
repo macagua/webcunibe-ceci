@@ -1,0 +1,22 @@
+lv = new LoadVars();
+lv.load("imagenescunibe.swf");
+// Preloader
+this.onEnterFrame = function() {
+	totalbytes = lv.getBytesTotal();
+	bytescargados = lv.getBytesLoaded();
+	totalbytes_txt.text = totalbytes;
+	bytescargados_txt.text = bytescargados;
+	porcentajecargado = int(bytescargados*100/totalbytes);
+	porcentajecargado_txt.text = porcentajecargado+" %";
+	//porcentage = int((getBytesLoaded()/getBytesTotal())*100);
+	//if (porcentage == 100) {
+	if (porcentajecargado == 100) {
+		delete this.onEnterFrame;
+		// aqui la peli ya está cargada, escribe tu código (gotoAnd....) etc.
+		//gotoAndStop(2);
+		loadMovieNum("imagenescunibe.swf", 0);
+	} else {
+		//mascara._yscale = porcentage;
+		mascara._yscale = porcentajecargado;
+	}
+};

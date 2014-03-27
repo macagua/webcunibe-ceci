@@ -1,0 +1,7 @@
+// Action script...
+
+// [Action in Frame 1]
+getURL("FSCommand:fullscreen", "true");
+
+// [Action in Frame 48]
+getURL("main.swf", "_level0");
