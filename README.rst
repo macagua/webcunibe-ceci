@@ -74,6 +74,7 @@ https://github.com/macagua/webcunibe-ceci/contributors
 .. _sitio Web de Cunibe: http://www.cunibe.org/
 .. _repositorio personal del Macagua: https://github.com/macagua/webcunibe-ceci
 .. _Windows NT: http://es.wikipedia.org/wiki/Windows_NT
+.. _Adobe GoLive: http://es.wikipedia.org/wiki/Adobe_GoLive
 .. _Macromedia Flash: http://en.wikipedia.org/wiki/Adobe_Flash_Professional
 .. _Sothink DHTML Menu: http://www.sothink.com/product/dhtmlmenu/
 .. _Robinson Franco: https://www.facebook.com/franco.rob.16
