@@ -39,9 +39,19 @@ Usted puede encontrar la versión de desarrollo del sitio web
 ``webcunibe-ceci`` en el `repositorio personal del Macagua`_ 
 en Github.com.
 
-Para descargar una copia del repositorio Git ejecute el siguiente comando: ::
+Para descargar una copia completa de todo el repositorio Git, ejecute el siguiente comando: ::
 
   git clone https://github.com/macagua/webcunibe-ceci.git ceci
+  
+Para descargar una sola copia del repositorio de los archivos generados para el sitio web, 
+ejecute el siguiente comando: ::
+
+  git clone -b master https://github.com/macagua/webcunibe-ceci.git ceci
+  
+Para descargar una sola copia del repositorio de archivos fuentes / editables de las animaciones 
+`Macromedia Flash`_, ejecute el siguiente comando: ::
+
+  git clone -b fla https://github.com/macagua/webcunibe-ceci.git ceci
 
 Autor(es) Original(es)
 ======================
