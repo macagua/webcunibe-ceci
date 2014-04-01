@@ -19,8 +19,6 @@ Características
 
 - Animaciones en formato Flash realizadas el estudio de animación `Macromedia Flash`_ MX.
 
-- Los menús de navegación construidos con el software `Sothink DHTML Menu`_.
-
 - Contenido generado con HTML 4, CSS, Javascript.
 
 - Soporte a diversos navegadores de la época de 2000 - 2004.
@@ -48,8 +46,9 @@ ejecute el siguiente comando: ::
 
   git clone -b master https://github.com/macagua/webcunibe-ceci.git ceci
   
-Para descargar una sola copia del repositorio de archivos fuentes / editables de las animaciones 
-`Macromedia Flash`_, ejecute el siguiente comando: ::
+Para descargar una sola copia del repositorio de archivos fuentes / editables de 
+las animaciones, imágenes, efectos de sonidos, etc usado con `Macromedia Flash`_, 
+ejecute el siguiente comando: ::
 
   git clone -b fla https://github.com/macagua/webcunibe-ceci.git ceci
 
@@ -76,5 +75,4 @@ https://github.com/macagua/webcunibe-ceci/contributors
 .. _Windows NT: http://es.wikipedia.org/wiki/Windows_NT
 .. _Adobe GoLive: http://es.wikipedia.org/wiki/Adobe_GoLive
 .. _Macromedia Flash: http://en.wikipedia.org/wiki/Adobe_Flash_Professional
-.. _Sothink DHTML Menu: http://www.sothink.com/product/dhtmlmenu/
 .. _Robinson Franco: https://www.facebook.com/franco.rob.16
